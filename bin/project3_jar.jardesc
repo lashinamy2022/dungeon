@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jardesc>
+    <jar path="/Users/yangyang/Documents/5010/project3-dungeon/project3.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/project03_dungeon/res/project3_jar.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" mainClassHandleIdentifier="=project03_dungeon/src&lt;driver{DungeonDriver.java[DungeonDriver" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="true">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <javaElement handleIdentifier="=project03_dungeon/src"/>
+        <file path="/project03_dungeon/.classpath"/>
+        <file path="/project03_dungeon/.project"/>
+    </selectedElements>
+</jardesc>

@@ -1,0 +1,698 @@
+Please enter 'wp' to start a wrapping dungeon game,
+    or enter 'nwp' to start a non-wrapping one,
+    and enter two numbers to set the size of the dungeon,
+    and then enter a number to set the degree of the dungeon,
+    then enter another number to set the treasure percentage,
+for example : wp 6 5 3 20 
+ start game : nwp 8 8 0 90
+====================================================
+ 0     1 === 2 === 3 === 4 === 5     6 === 7    
+||                ||    ||          ||          
+ 8 === 9    10 ===11    12    13    14 ===15    
+||                      ||    ||          ||    
+16 ===17    18 ===19    20    21    22 ===23    
+||                ||    ||    ||          ||    
+24 ===25 ===26    27 ===28 ===29 ===30 ===31    
+      ||          ||    ||          ||          
+32    33 ===34    35    36 ===37    38 ===39    
+||          ||          ||                ||    
+40 ===41 ===42    43 ===44    45 ===46    47    
+            ||    ||    ||    ||          ||    
+48 ===49    50 ===51    52    53 ===54 ===55    
+      ||    ||          ||    ||    ||    ||    
+56 ===57 ===58 ===59    60    61    62    63    
+                                                
+====================================================
+player should start from 3 to 59
+====================================================
+please enter 'enter' to enter the dungeon:enter
+====================================================
+ 0     1 === 2 === P === 4 === 5     6 === 7    
+||                ||    ||          ||          
+ 8 === 9    10 ===11    12    13    14 ===15    
+||                      ||    ||          ||    
+16 ===17    18 ===19    20    21    22 ===23    
+||                ||    ||    ||          ||    
+24 ===25 ===26    27 ===28 ===29 ===30 ===31    
+      ||          ||    ||          ||          
+32    33 ===34    35    36 ===37    38 ===39    
+||          ||          ||                ||    
+40 ===41 ===42    43 ===44    45 ===46    47    
+            ||    ||    ||    ||          ||    
+48 ===49    50 ===51    52    53 ===54 ===55    
+      ||    ||          ||    ||    ||    ||    
+56 ===57 ===58 ===59    60    61    62    63    
+                                                
+====================================================
+====================================================
+location info:
+position:(1,4)
+location : 3
+type:cave
+treasure:[ruby * 4, sapphire * 2]
+possible moves:[west, south, east]
+====================================================
+player info:
+origin: 3
+destination: 59
+current: 3
+treasure:[]
+locations it has been: [3]
+====================================================
+enter 'N','S','W','E' to move towards
+north, south, west, east respectively
+or 'p' to pick up treasure
+or enter 'q' to quit the game: E
+ 0     1 === 2 === 3 === P === 5     6 === 7    
+||                ||    ||          ||          
+ 8 === 9    10 ===11    12    13    14 ===15    
+||                      ||    ||          ||    
+16 ===17    18 ===19    20    21    22 ===23    
+||                ||    ||    ||          ||    
+24 ===25 ===26    27 ===28 ===29 ===30 ===31    
+      ||          ||    ||          ||          
+32    33 ===34    35    36 ===37    38 ===39    
+||          ||          ||                ||    
+40 ===41 ===42    43 ===44    45 ===46    47    
+            ||    ||    ||    ||          ||    
+48 ===49    50 ===51    52    53 ===54 ===55    
+      ||    ||          ||    ||    ||    ||    
+56 ===57 ===58 ===59    60    61    62    63    
+                                                
+====================================================
+location info:
+position:(1,5)
+location : 4
+type:cave
+treasure:[ruby * 1]
+possible moves:[south, east, west]
+====================================================
+player info:
+origin: 3
+destination: 59
+current: 4
+treasure:[]
+locations it has been: [3, 4]
+====================================================
+enter 'N','S','W','E' to move towards
+north, south, west, east respectively
+or 'p' to pick up treasure
+or enter 'q' to quit the game: p
+ 0     1 === 2 === 3 === P === 5     6 === 7    
+||                ||    ||          ||          
+ 8 === 9    10 ===11    12    13    14 ===15    
+||                      ||    ||          ||    
+16 ===17    18 ===19    20    21    22 ===23    
+||                ||    ||    ||          ||    
+24 ===25 ===26    27 ===28 ===29 ===30 ===31    
+      ||          ||    ||          ||          
+32    33 ===34    35    36 ===37    38 ===39    
+||          ||          ||                ||    
+40 ===41 ===42    43 ===44    45 ===46    47    
+            ||    ||    ||    ||          ||    
+48 ===49    50 ===51    52    53 ===54 ===55    
+      ||    ||          ||    ||    ||    ||    
+56 ===57 ===58 ===59    60    61    62    63    
+                                                
+====================================================
+location info:
+position:(1,5)
+location : 4
+type:cave
+treasure:[]
+possible moves:[south, east, west]
+====================================================
+player info:
+origin: 3
+destination: 59
+current: 4
+treasure:[ruby * 1]
+locations it has been: [3, 4]
+====================================================
+enter 'N','S','W','E' to move towards
+north, south, west, east respectively
+or 'p' to pick up treasure
+or enter 'q' to quit the game: E
+ 0     1 === 2 === 3 === 4 === P     6 === 7    
+||                ||    ||          ||          
+ 8 === 9    10 ===11    12    13    14 ===15    
+||                      ||    ||          ||    
+16 ===17    18 ===19    20    21    22 ===23    
+||                ||    ||    ||          ||    
+24 ===25 ===26    27 ===28 ===29 ===30 ===31    
+      ||          ||    ||          ||          
+32    33 ===34    35    36 ===37    38 ===39    
+||          ||          ||                ||    
+40 ===41 ===42    43 ===44    45 ===46    47    
+            ||    ||    ||    ||          ||    
+48 ===49    50 ===51    52    53 ===54 ===55    
+      ||    ||          ||    ||    ||    ||    
+56 ===57 ===58 ===59    60    61    62    63    
+                                                
+====================================================
+location info:
+position:(1,6)
+location : 5
+type:cave
+treasure:[diamond * 2, ruby * 2, sapphire * 4]
+possible moves:[west]
+====================================================
+player info:
+origin: 3
+destination: 59
+current: 5
+treasure:[ruby * 1]
+locations it has been: [3, 4, 5]
+====================================================
+enter 'N','S','W','E' to move towards
+north, south, west, east respectively
+or 'p' to pick up treasure
+or enter 'q' to quit the game: p
+ 0     1 === 2 === 3 === 4 === P     6 === 7    
+||                ||    ||          ||          
+ 8 === 9    10 ===11    12    13    14 ===15    
+||                      ||    ||          ||    
+16 ===17    18 ===19    20    21    22 ===23    
+||                ||    ||    ||          ||    
+24 ===25 ===26    27 ===28 ===29 ===30 ===31    
+      ||          ||    ||          ||          
+32    33 ===34    35    36 ===37    38 ===39    
+||          ||          ||                ||    
+40 ===41 ===42    43 ===44    45 ===46    47    
+            ||    ||    ||    ||          ||    
+48 ===49    50 ===51    52    53 ===54 ===55    
+      ||    ||          ||    ||    ||    ||    
+56 ===57 ===58 ===59    60    61    62    63    
+                                                
+====================================================
+location info:
+position:(1,6)
+location : 5
+type:cave
+treasure:[]
+possible moves:[west]
+====================================================
+player info:
+origin: 3
+destination: 59
+current: 5
+treasure:[diamond * 2, ruby * 3, sapphire * 4]
+locations it has been: [3, 4, 5]
+====================================================
+enter 'N','S','W','E' to move towards
+north, south, west, east respectively
+or 'p' to pick up treasure
+or enter 'q' to quit the game: W
+ 0     1 === 2 === 3 === P === 5     6 === 7    
+||                ||    ||          ||          
+ 8 === 9    10 ===11    12    13    14 ===15    
+||                      ||    ||          ||    
+16 ===17    18 ===19    20    21    22 ===23    
+||                ||    ||    ||          ||    
+24 ===25 ===26    27 ===28 ===29 ===30 ===31    
+      ||          ||    ||          ||          
+32    33 ===34    35    36 ===37    38 ===39    
+||          ||          ||                ||    
+40 ===41 ===42    43 ===44    45 ===46    47    
+            ||    ||    ||    ||          ||    
+48 ===49    50 ===51    52    53 ===54 ===55    
+      ||    ||          ||    ||    ||    ||    
+56 ===57 ===58 ===59    60    61    62    63    
+                                                
+====================================================
+location info:
+position:(1,5)
+location : 4
+type:cave
+treasure:[]
+possible moves:[south, east, west]
+====================================================
+player info:
+origin: 3
+destination: 59
+current: 4
+treasure:[diamond * 2, ruby * 3, sapphire * 4]
+locations it has been: [3, 4, 5]
+====================================================
+enter 'N','S','W','E' to move towards
+north, south, west, east respectively
+or 'p' to pick up treasure
+or enter 'q' to quit the game: S
+ 0     1 === 2 === 3 === 4 === 5     6 === 7    
+||                ||    ||          ||          
+ 8 === 9    10 ===11     P    13    14 ===15    
+||                      ||    ||          ||    
+16 ===17    18 ===19    20    21    22 ===23    
+||                ||    ||    ||          ||    
+24 ===25 ===26    27 ===28 ===29 ===30 ===31    
+      ||          ||    ||          ||          
+32    33 ===34    35    36 ===37    38 ===39    
+||          ||          ||                ||    
+40 ===41 ===42    43 ===44    45 ===46    47    
+            ||    ||    ||    ||          ||    
+48 ===49    50 ===51    52    53 ===54 ===55    
+      ||    ||          ||    ||    ||    ||    
+56 ===57 ===58 ===59    60    61    62    63    
+                                                
+====================================================
+location info:
+position:(2,5)
+location : 12
+type:tunnel
+treasure:[]
+possible moves:[north, south]
+====================================================
+player info:
+origin: 3
+destination: 59
+current: 12
+treasure:[diamond * 2, ruby * 3, sapphire * 4]
+locations it has been: [3, 4, 5, 12]
+====================================================
+enter 'N','S','W','E' to move towards
+north, south, west, east respectively
+or 'p' to pick up treasure
+or enter 'q' to quit the game: S
+ 0     1 === 2 === 3 === 4 === 5     6 === 7    
+||                ||    ||          ||          
+ 8 === 9    10 ===11    12    13    14 ===15    
+||                      ||    ||          ||    
+16 ===17    18 ===19     P    21    22 ===23    
+||                ||    ||    ||          ||    
+24 ===25 ===26    27 ===28 ===29 ===30 ===31    
+      ||          ||    ||          ||          
+32    33 ===34    35    36 ===37    38 ===39    
+||          ||          ||                ||    
+40 ===41 ===42    43 ===44    45 ===46    47    
+            ||    ||    ||    ||          ||    
+48 ===49    50 ===51    52    53 ===54 ===55    
+      ||    ||          ||    ||    ||    ||    
+56 ===57 ===58 ===59    60    61    62    63    
+                                                
+====================================================
+location info:
+position:(3,5)
+location : 20
+type:tunnel
+treasure:[]
+possible moves:[south, north]
+====================================================
+player info:
+origin: 3
+destination: 59
+current: 20
+treasure:[diamond * 2, ruby * 3, sapphire * 4]
+locations it has been: [3, 4, 5, 12, 20]
+====================================================
+enter 'N','S','W','E' to move towards
+north, south, west, east respectively
+or 'p' to pick up treasure
+or enter 'q' to quit the game: S
+ 0     1 === 2 === 3 === 4 === 5     6 === 7    
+||                ||    ||          ||          
+ 8 === 9    10 ===11    12    13    14 ===15    
+||                      ||    ||          ||    
+16 ===17    18 ===19    20    21    22 ===23    
+||                ||    ||    ||          ||    
+24 ===25 ===26    27 === P ===29 ===30 ===31    
+      ||          ||    ||          ||          
+32    33 ===34    35    36 ===37    38 ===39    
+||          ||          ||                ||    
+40 ===41 ===42    43 ===44    45 ===46    47    
+            ||    ||    ||    ||          ||    
+48 ===49    50 ===51    52    53 ===54 ===55    
+      ||    ||          ||    ||    ||    ||    
+56 ===57 ===58 ===59    60    61    62    63    
+                                                
+====================================================
+location info:
+position:(4,5)
+location : 28
+type:cave
+treasure:[diamond * 2, ruby * 2, sapphire * 2]
+possible moves:[east, north, west, south]
+====================================================
+player info:
+origin: 3
+destination: 59
+current: 28
+treasure:[diamond * 2, ruby * 3, sapphire * 4]
+locations it has been: [3, 4, 5, 12, 20, 28]
+====================================================
+enter 'N','S','W','E' to move towards
+north, south, west, east respectively
+or 'p' to pick up treasure
+or enter 'q' to quit the game: S
+ 0     1 === 2 === 3 === 4 === 5     6 === 7    
+||                ||    ||          ||          
+ 8 === 9    10 ===11    12    13    14 ===15    
+||                      ||    ||          ||    
+16 ===17    18 ===19    20    21    22 ===23    
+||                ||    ||    ||          ||    
+24 ===25 ===26    27 ===28 ===29 ===30 ===31    
+      ||          ||    ||          ||          
+32    33 ===34    35     P ===37    38 ===39    
+||          ||          ||                ||    
+40 ===41 ===42    43 ===44    45 ===46    47    
+            ||    ||    ||    ||          ||    
+48 ===49    50 ===51    52    53 ===54 ===55    
+      ||    ||          ||    ||    ||    ||    
+56 ===57 ===58 ===59    60    61    62    63    
+                                                
+====================================================
+location info:
+position:(5,5)
+location : 36
+type:cave
+treasure:[]
+possible moves:[east, south, north]
+====================================================
+player info:
+origin: 3
+destination: 59
+current: 36
+treasure:[diamond * 2, ruby * 3, sapphire * 4]
+locations it has been: [3, 4, 5, 12, 20, 28, 36]
+====================================================
+enter 'N','S','W','E' to move towards
+north, south, west, east respectively
+or 'p' to pick up treasure
+or enter 'q' to quit the game: S
+ 0     1 === 2 === 3 === 4 === 5     6 === 7    
+||                ||    ||          ||          
+ 8 === 9    10 ===11    12    13    14 ===15    
+||                      ||    ||          ||    
+16 ===17    18 ===19    20    21    22 ===23    
+||                ||    ||    ||          ||    
+24 ===25 ===26    27 ===28 ===29 ===30 ===31    
+      ||          ||    ||          ||          
+32    33 ===34    35    36 ===37    38 ===39    
+||          ||          ||                ||    
+40 ===41 ===42    43 === P    45 ===46    47    
+            ||    ||    ||    ||          ||    
+48 ===49    50 ===51    52    53 ===54 ===55    
+      ||    ||          ||    ||    ||    ||    
+56 ===57 ===58 ===59    60    61    62    63    
+                                                
+====================================================
+location info:
+position:(6,5)
+location : 44
+type:cave
+treasure:[diamond * 3, ruby * 4, sapphire * 1]
+possible moves:[west, north, south]
+====================================================
+player info:
+origin: 3
+destination: 59
+current: 44
+treasure:[diamond * 2, ruby * 3, sapphire * 4]
+locations it has been: [3, 4, 5, 12, 20, 28, 36, 44]
+====================================================
+enter 'N','S','W','E' to move towards
+north, south, west, east respectively
+or 'p' to pick up treasure
+or enter 'q' to quit the game: p
+ 0     1 === 2 === 3 === 4 === 5     6 === 7    
+||                ||    ||          ||          
+ 8 === 9    10 ===11    12    13    14 ===15    
+||                      ||    ||          ||    
+16 ===17    18 ===19    20    21    22 ===23    
+||                ||    ||    ||          ||    
+24 ===25 ===26    27 ===28 ===29 ===30 ===31    
+      ||          ||    ||          ||          
+32    33 ===34    35    36 ===37    38 ===39    
+||          ||          ||                ||    
+40 ===41 ===42    43 === P    45 ===46    47    
+            ||    ||    ||    ||          ||    
+48 ===49    50 ===51    52    53 ===54 ===55    
+      ||    ||          ||    ||    ||    ||    
+56 ===57 ===58 ===59    60    61    62    63    
+                                                
+====================================================
+location info:
+position:(6,5)
+location : 44
+type:cave
+treasure:[]
+possible moves:[west, north, south]
+====================================================
+player info:
+origin: 3
+destination: 59
+current: 44
+treasure:[diamond * 5, ruby * 7, sapphire * 5]
+locations it has been: [3, 4, 5, 12, 20, 28, 36, 44]
+====================================================
+enter 'N','S','W','E' to move towards
+north, south, west, east respectively
+or 'p' to pick up treasure
+or enter 'q' to quit the game: W
+ 0     1 === 2 === 3 === 4 === 5     6 === 7    
+||                ||    ||          ||          
+ 8 === 9    10 ===11    12    13    14 ===15    
+||                      ||    ||          ||    
+16 ===17    18 ===19    20    21    22 ===23    
+||                ||    ||    ||          ||    
+24 ===25 ===26    27 ===28 ===29 ===30 ===31    
+      ||          ||    ||          ||          
+32    33 ===34    35    36 ===37    38 ===39    
+||          ||          ||                ||    
+40 ===41 ===42     P ===44    45 ===46    47    
+            ||    ||    ||    ||          ||    
+48 ===49    50 ===51    52    53 ===54 ===55    
+      ||    ||          ||    ||    ||    ||    
+56 ===57 ===58 ===59    60    61    62    63    
+                                                
+====================================================
+location info:
+position:(6,4)
+location : 43
+type:tunnel
+treasure:[]
+possible moves:[east, south]
+====================================================
+player info:
+origin: 3
+destination: 59
+current: 43
+treasure:[diamond * 5, ruby * 7, sapphire * 5]
+locations it has been: [3, 4, 5, 12, 20, 28, 36, 43, 44]
+====================================================
+enter 'N','S','W','E' to move towards
+north, south, west, east respectively
+or 'p' to pick up treasure
+or enter 'q' to quit the game: S
+ 0     1 === 2 === 3 === 4 === 5     6 === 7    
+||                ||    ||          ||          
+ 8 === 9    10 ===11    12    13    14 ===15    
+||                      ||    ||          ||    
+16 ===17    18 ===19    20    21    22 ===23    
+||                ||    ||    ||          ||    
+24 ===25 ===26    27 ===28 ===29 ===30 ===31    
+      ||          ||    ||          ||          
+32    33 ===34    35    36 ===37    38 ===39    
+||          ||          ||                ||    
+40 ===41 ===42    43 ===44    45 ===46    47    
+            ||    ||    ||    ||          ||    
+48 ===49    50 === P    52    53 ===54 ===55    
+      ||    ||          ||    ||    ||    ||    
+56 ===57 ===58 ===59    60    61    62    63    
+                                                
+====================================================
+location info:
+position:(7,4)
+location : 51
+type:tunnel
+treasure:[]
+possible moves:[west, north]
+====================================================
+player info:
+origin: 3
+destination: 59
+current: 51
+treasure:[diamond * 5, ruby * 7, sapphire * 5]
+locations it has been: [3, 4, 5, 12, 20, 28, 36, 43, 44, 51]
+====================================================
+enter 'N','S','W','E' to move towards
+north, south, west, east respectively
+or 'p' to pick up treasure
+or enter 'q' to quit the game: W
+ 0     1 === 2 === 3 === 4 === 5     6 === 7    
+||                ||    ||          ||          
+ 8 === 9    10 ===11    12    13    14 ===15    
+||                      ||    ||          ||    
+16 ===17    18 ===19    20    21    22 ===23    
+||                ||    ||    ||          ||    
+24 ===25 ===26    27 ===28 ===29 ===30 ===31    
+      ||          ||    ||          ||          
+32    33 ===34    35    36 ===37    38 ===39    
+||          ||          ||                ||    
+40 ===41 ===42    43 ===44    45 ===46    47    
+            ||    ||    ||    ||          ||    
+48 ===49     P ===51    52    53 ===54 ===55    
+      ||    ||          ||    ||    ||    ||    
+56 ===57 ===58 ===59    60    61    62    63    
+                                                
+====================================================
+location info:
+position:(7,3)
+location : 50
+type:cave
+treasure:[diamond * 4, ruby * 1, sapphire * 3]
+possible moves:[south, east, north]
+====================================================
+player info:
+origin: 3
+destination: 59
+current: 50
+treasure:[diamond * 5, ruby * 7, sapphire * 5]
+locations it has been: [3, 4, 5, 12, 20, 28, 36, 43, 44, 50, 51]
+====================================================
+enter 'N','S','W','E' to move towards
+north, south, west, east respectively
+or 'p' to pick up treasure
+or enter 'q' to quit the game: p
+ 0     1 === 2 === 3 === 4 === 5     6 === 7    
+||                ||    ||          ||          
+ 8 === 9    10 ===11    12    13    14 ===15    
+||                      ||    ||          ||    
+16 ===17    18 ===19    20    21    22 ===23    
+||                ||    ||    ||          ||    
+24 ===25 ===26    27 ===28 ===29 ===30 ===31    
+      ||          ||    ||          ||          
+32    33 ===34    35    36 ===37    38 ===39    
+||          ||          ||                ||    
+40 ===41 ===42    43 ===44    45 ===46    47    
+            ||    ||    ||    ||          ||    
+48 ===49     P ===51    52    53 ===54 ===55    
+      ||    ||          ||    ||    ||    ||    
+56 ===57 ===58 ===59    60    61    62    63    
+                                                
+====================================================
+location info:
+position:(7,3)
+location : 50
+type:cave
+treasure:[]
+possible moves:[south, east, north]
+====================================================
+player info:
+origin: 3
+destination: 59
+current: 50
+treasure:[diamond * 9, ruby * 8, sapphire * 8]
+locations it has been: [3, 4, 5, 12, 20, 28, 36, 43, 44, 50, 51]
+====================================================
+enter 'N','S','W','E' to move towards
+north, south, west, east respectively
+or 'p' to pick up treasure
+or enter 'q' to quit the game: S
+ 0     1 === 2 === 3 === 4 === 5     6 === 7    
+||                ||    ||          ||          
+ 8 === 9    10 ===11    12    13    14 ===15    
+||                      ||    ||          ||    
+16 ===17    18 ===19    20    21    22 ===23    
+||                ||    ||    ||          ||    
+24 ===25 ===26    27 ===28 ===29 ===30 ===31    
+      ||          ||    ||          ||          
+32    33 ===34    35    36 ===37    38 ===39    
+||          ||          ||                ||    
+40 ===41 ===42    43 ===44    45 ===46    47    
+            ||    ||    ||    ||          ||    
+48 ===49    50 ===51    52    53 ===54 ===55    
+      ||    ||          ||    ||    ||    ||    
+56 ===57 === P ===59    60    61    62    63    
+                                                
+====================================================
+location info:
+position:(8,3)
+location : 58
+type:cave
+treasure:[]
+possible moves:[north, east, west]
+====================================================
+player info:
+origin: 3
+destination: 59
+current: 58
+treasure:[diamond * 9, ruby * 8, sapphire * 8]
+locations it has been: [3, 4, 5, 12, 20, 28, 36, 43, 44, 50, 51, 58]
+====================================================
+enter 'N','S','W','E' to move towards
+north, south, west, east respectively
+or 'p' to pick up treasure
+or enter 'q' to quit the game: E
+ 0     1 === 2 === 3 === 4 === 5     6 === 7    
+||                ||    ||          ||          
+ 8 === 9    10 ===11    12    13    14 ===15    
+||                      ||    ||          ||    
+16 ===17    18 ===19    20    21    22 ===23    
+||                ||    ||    ||          ||    
+24 ===25 ===26    27 ===28 ===29 ===30 ===31    
+      ||          ||    ||          ||          
+32    33 ===34    35    36 ===37    38 ===39    
+||          ||          ||                ||    
+40 ===41 ===42    43 ===44    45 ===46    47    
+            ||    ||    ||    ||          ||    
+48 ===49    50 ===51    52    53 ===54 ===55    
+      ||    ||          ||    ||    ||    ||    
+56 ===57 ===58 === P    60    61    62    63    
+                                                
+====================================================
+location info:
+position:(8,4)
+location : 59
+type:cave
+treasure:[diamond * 1, ruby * 3, sapphire * 6]
+possible moves:[west]
+====================================================
+player info:
+origin: 3
+destination: 59
+current: 59
+treasure:[diamond * 9, ruby * 8, sapphire * 8]
+locations it has been: [3, 4, 5, 12, 20, 28, 36, 43, 44, 50, 51, 58, 59]
+====================================================
+enter 'N','S','W','E' to move towards
+north, south, west, east respectively
+or 'p' to pick up treasure
+or enter 'q' to quit the game: p
+ 0     1 === 2 === 3 === 4 === 5     6 === 7    
+||                ||    ||          ||          
+ 8 === 9    10 ===11    12    13    14 ===15    
+||                      ||    ||          ||    
+16 ===17    18 ===19    20    21    22 ===23    
+||                ||    ||    ||          ||    
+24 ===25 ===26    27 ===28 ===29 ===30 ===31    
+      ||          ||    ||          ||          
+32    33 ===34    35    36 ===37    38 ===39    
+||          ||          ||                ||    
+40 ===41 ===42    43 ===44    45 ===46    47    
+            ||    ||    ||    ||          ||    
+48 ===49    50 ===51    52    53 ===54 ===55    
+      ||    ||          ||    ||    ||    ||    
+56 ===57 ===58 === P    60    61    62    63    
+                                                
+====================================================
+location info:
+position:(8,4)
+location : 59
+type:cave
+treasure:[]
+possible moves:[west]
+====================================================
+player info:
+origin: 3
+destination: 59
+current: 59
+treasure:[diamond * 10, ruby * 11, sapphire * 14]
+locations it has been: [3, 4, 5, 12, 20, 28, 36, 43, 44, 50, 51, 58, 59]
+====================================================
+The game is over!
+player info:
+origin: 3
+destination: 59
+current: 59
+treasure:[diamond * 10, ruby * 11, sapphire * 14]
+locations it has been: [3, 4, 5, 12, 20, 28, 36, 43, 44, 50, 51, 58, 59]
